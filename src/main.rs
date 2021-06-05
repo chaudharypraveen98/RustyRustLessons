@@ -6,8 +6,20 @@
 // mod arrays;
 // mod vectors;
 // mod conditionals;
-mod loops;
+// mod loops;
+// mod functions;
+mod pointers_and_references;
 
 fn main() {
-    loops::run();
+    // print::run();
+    // vars::run();
+    // types::run();
+    // string::run();
+    // tuples::run();
+    // arrays::run();
+    // vectors::run();
+    // conditionals::run();
+    // loops::run();
+    // functions::run();
+    pointers_and_references::run();
 }
