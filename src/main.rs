@@ -8,7 +8,10 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod pointers_and_references;
+// mod pointers_and_references;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
     // print::run();
@@ -21,5 +24,8 @@ fn main() {
     // conditionals::run();
     // loops::run();
     // functions::run();
-    pointers_and_references::run();
+    // pointers_and_references::run();
+    // structs::run();
+    // enums::run();
+    cli::run();
 }
