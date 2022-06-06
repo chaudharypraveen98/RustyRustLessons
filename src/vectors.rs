@@ -1,4 +1,9 @@
 use std::mem;
+#[derive(Debug)]
+enum TYPE {
+    STRING(String),
+    INTEGER(i32),
+}
 
 pub fn run() {
     let mut number: Vec<i32> = vec![1, 2, 3, 4, 5];
@@ -23,8 +28,23 @@ pub fn run() {
     println!("Slice is {:?}", slice);
 
     // Vector Looping and mutating value
-    for item in number.iter_mut(){
+    for item in number.iter_mut() {
         *item *= 2;
     }
-    println!("Numbers are {:?}",number);
+    println!("Numbers are {:?}", number);
+
+    // random types in vectors
+    let random_list = vec![
+        TYPE::STRING(String::from("Praveen")),
+        TYPE::INTEGER(99),
+        TYPE::STRING(String::from("Rahul")),
+    ];
+    println!("{:?}", random_list);
+
+    for i in &random_list {
+        match i {
+            TYPE::INTEGER(i) => println!("{}", i),
+            TYPE::STRING(name) => println!("{}", name),
+        }
+    }
 }
