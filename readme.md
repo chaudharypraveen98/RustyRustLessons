@@ -14,6 +14,8 @@ It contains all the basics concepts of rust in just five lesson only and you can
 * [Lesson 4 - Functions Pointers References](https://github.com/chaudharypraveen98/RustyRustLessons/tree/Lesson_4_Functions_Pointers_References/src)
 
 * [Lesson 5 - Structs Enums Cli](https://github.com/chaudharypraveen98/RustyRustLessons/tree/Lesson_5_Structs_Enums_Cli/src)
+  
+* [Lesson 6 - Structs Impl Traits](https://github.com/chaudharypraveen98/RustyRustLessons/tree/Lesson_6_Structs_Impl_Traits/src)
 
 #### Reference Video 🎥
 [Rust Crash Course | Rustlang with Brad](https://www.youtube.com/watch?v=zF34dRivLOw)

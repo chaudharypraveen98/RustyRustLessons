@@ -11,7 +11,8 @@
 // mod pointers_and_references;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
+mod structs_impl_traits;
 
 fn main() {
     // print::run();
@@ -27,5 +28,6 @@ fn main() {
     // pointers_and_references::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    // cli::run();
+    structs_impl_traits::run();
 }
