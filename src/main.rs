@@ -13,6 +13,7 @@
 // mod enums;
 // mod cli;
 mod structs_impl_traits;
+mod cell;
 
 fn main() {
     // print::run();
