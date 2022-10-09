@@ -12,7 +12,8 @@
 // mod structs;
 // mod enums;
 // mod cli;
-mod structs_impl_traits;
+// mod structs_impl_traits;
+mod generics;
 
 fn main() {
     // print::run();
@@ -29,5 +30,6 @@ fn main() {
     // structs::run();
     // enums::run();
     // cli::run();
-    structs_impl_traits::run();
+    // structs_impl_traits::run();
+    generics::run();
 }
